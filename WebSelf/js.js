@@ -25,7 +25,7 @@ function ChangPho1() {
 
 	// 切换图片
 
-	if (index <= 1){
+	if (index == 1){
 		index = 4;
 	}
 	else{
