@@ -1,0 +1,26 @@
+#bottom{
+	width: 100%;
+	height: 60px;
+	background-color:#1d1626;
+	bottom: 0;
+	margin: 0 ;
+	padding: 0;
+	text-align: center;
+	float: left;
+}
+
+#bottom ul{
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+}
+#bottom li{
+	color: white;
+	border-right: 1px solid white; 
+	width: 200px;
+	float: left;
+}
+
+#bottom li:last-child{
+	border-right: none;
+}
