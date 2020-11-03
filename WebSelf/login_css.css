@@ -3,6 +3,9 @@ body,html{
 	width: 100%;
 	height: 100%;
 
+	background-image: url("images/login_lb.jpg") ;
+	background-size: cover;
+
 }
 
 #Bigbox{
@@ -11,6 +14,10 @@ body,html{
 	height: 100%;
 	padding: 0;
 	text-align: center;
+	    /* FireFox, Chrome, Opera */
+    
+     
+
 }
 
 header{
@@ -97,7 +104,7 @@ nav{
 }
 
 #nav_ul li a:hover{
-	color: #343215;
+	color: #7FFFD4;
 	font-weight: bold;
 }
 
@@ -119,7 +126,7 @@ nav{
 	border: 1px solid #000;
 	text-align: center;
 	vertical-align:	middle;
-
+	background-image: url("images/login_bc.jpg");
 	display: inline-block;
 }
 
@@ -130,6 +137,7 @@ nav{
 	width: 550px;
 	height: 300px;
 	text-align: center;
+
 
 }
 tr{
@@ -142,14 +150,99 @@ tr{
 td{
 	float: left;
 }
-span{
-	width: 200px;
-	height: 30px;
-	color: red;
+
+input{
+	 width:360px;
+  margin:20px auto;
 }
+
+#username{
+	 box-sizing: border-box;
+  text-align:center;
+  font-size:1.4em;
+  height:2.0em;
+  border-radius:4px;
+  border:1px solid #c8cccf;
+  color:#6a6f77;
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+  display:block;
+  outline:0;
+  padding:0 1em;
+  text-decoration:none;
+  width:100%;
+  margin-left: -20px;
+}
+
+#pswd{
+ box-sizing: border-box;
+  text-align:center;
+  font-size:1.4em;
+  height:2.0em;
+  border-radius:4px;
+  border:1px solid #c8cccf;
+  color:#6a6f77;
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+  display:block;
+  outline:0;
+  padding:0 1em;
+  text-decoration:none;
+  width:100%;
+  margin-left: -20px;
+}
+
+#b_sub{
+	 box-sizing: border-box;
+  text-align:center;
+  font-size:1.4em;
+  height:2.0em;
+  border-radius:4px;
+  border:1px solid #c8cccf;
+  color:#6a6f77;
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+  display:block;
+  outline:0;
+  padding:0 1em;
+  text-decoration:none;
+  width:100%;
+}
+
+#b_sub:hover{
+	background-color: #00ffff;
+}
+#b_reg:hover{
+	background-color: #00ffff;
+}
+
+#b_reg{
+	 box-sizing: border-box;
+  text-align:center;
+  font-size:1.4em;
+  height:2.0em;
+  border-radius:4px;
+  border:1px solid #c8cccf;
+  color:#6a6f77;
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+  display:block;
+  outline:0;
+  padding:0 1em;
+  text-decoration:none;
+  width:100%;
+}
+
+span{
+	color: #FF99FF;
+}
+#pw_span{
+	width: 200px;
+	float: left;
+}
+
 #un_span{
 	width: 200px;
-	color: red;
 	float: left;
 }
 #bottom{

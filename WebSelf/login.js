@@ -34,6 +34,8 @@ window.onload = function(){
                     pw_span.innerHTML = "密码应为数字！！";
                }else
                     pw_span.innerHTML = "";
+          }else{
+               pw_span.innerHTML = "请输入密码！";
           }
 
           if (uname.value == "123456" && pwd.value =="123456") {
