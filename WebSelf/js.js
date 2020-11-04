@@ -19,8 +19,6 @@ window.onload = function () {
 
 }
 
-
-
 function ChangPho1() {
 
 	// 切换图片

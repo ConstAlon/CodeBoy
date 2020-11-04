@@ -3,8 +3,7 @@ body,html{
 	width: 100%;
 	height: 100%;
 
-	background-image: url("images/login_lb.jpg") ;
-	background-size: cover;
+	
 
 }
 
@@ -14,7 +13,8 @@ body,html{
 	height: 100%;
 	padding: 0;
 	text-align: center;
-	    /* FireFox, Chrome, Opera */
+	background-image: url("images/login_lb.jpg") ;
+	background-size: cover;
     
      
 
@@ -111,7 +111,6 @@ nav{
 
 
 #l_body{
-	position: relative;
 	width: 100%;
 	height: 900px ;
 	text-align: center;
@@ -245,6 +244,8 @@ span{
 	width: 200px;
 	float: left;
 }
+
+
 #bottom{
 	width: 100%;
 	height: 60px;
