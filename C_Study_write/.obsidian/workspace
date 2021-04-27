@@ -7,8 +7,11 @@
         "id": "fc801ad96c339e4c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "C_enum.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C_enum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,8 +88,8 @@
   },
   "active": "fc801ad96c339e4c",
   "lastOpenFiles": [
-    "index.md",
     "C enum.md",
+    "index.md",
     "Untitled.md"
   ]
 }
