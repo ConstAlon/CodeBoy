@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C_enum.md",
+            "file": "C_struct.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "decf5d3df3536b14"
+      },
+      {
+        "id": "98bab6a1c1f80435",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "C_struct.md",
+            "mode": "preview"
+          }
+        },
+        "group": "decf5d3df3536b14"
       }
     ],
     "direction": "vertical"
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C_enum.md",
+                "file": "C_struct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +101,10 @@
   },
   "active": "fc801ad96c339e4c",
   "lastOpenFiles": [
+    "C_strack.md",
+    "C_enum.md",
+    "Untitled.md",
     "C enum.md",
-    "index.md",
-    "Untitled.md"
+    "index.md"
   ]
 }
