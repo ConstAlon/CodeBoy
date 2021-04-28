@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C_struct.md",
+            "file": "C/C.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "C_struct.md",
+            "file": "C/C.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C_struct.md",
+                "file": "C/C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,9 +101,13 @@
   },
   "active": "fc801ad96c339e4c",
   "lastOpenFiles": [
-    "C_strack.md",
-    "C_enum.md",
+    "C/C.md",
+    "C/C_struct.md",
     "Untitled.md",
+    "C_enum.md",
+    "C_struct.md",
+    "C.md",
+    "C_strack.md",
     "C enum.md",
     "index.md"
   ]
