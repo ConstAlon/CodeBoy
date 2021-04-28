@@ -90,7 +90,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -98,17 +98,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "fc801ad96c339e4c",
   "lastOpenFiles": [
     "JAVA/JAVA.md",
-    "C/C.md",
-    "C/C_union.md",
     "C/C_struct.md",
-    "C/C_enum.md",
     "C/C_point.md",
+    "C/C_union.md",
+    "C/C.md",
+    "C/C_enum.md",
     "C/Untitled.md",
     "Untitled.md",
     "C_enum.md",
