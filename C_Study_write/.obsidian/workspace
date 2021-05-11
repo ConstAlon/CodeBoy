@@ -6,28 +6,28 @@
       {
         "id": "fc801ad96c339e4c",
         "type": "leaf",
-        "dimension": 49.67741935483871,
+        "dimension": 51.86194368755677,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JAVA/JAVA.md",
+            "file": "operating_system/计算机系统概述.md",
             "mode": "source"
           }
         },
-        "group": "decf5d3df3536b14"
+        "group": "cee9cf38f0b2225a"
       },
       {
-        "id": "98bab6a1c1f80435",
+        "id": "e75ae21d96b0d00f",
         "type": "leaf",
-        "dimension": 50.32258064516129,
+        "dimension": 48.13805631244323,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JAVA/JAVA.md",
+            "file": "operating_system/计算机系统概述.md",
             "mode": "preview"
           }
         },
-        "group": "decf5d3df3536b14"
+        "group": "cee9cf38f0b2225a"
       }
     ],
     "direction": "vertical"
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JAVA/JAVA.md",
+                "file": "operating_system/计算机系统概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +98,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "fc801ad96c339e4c",
   "lastOpenFiles": [
-    "JAVA/JAVA.md",
-    "C/C.md",
-    "C/C_struct.md",
-    "C/C_point.md",
-    "C/C_union.md",
-    "C/C_enum.md",
-    "C/Untitled.md",
+    "operating_system/计算机系统概述.md",
+    "operating_system/进程.md",
+    "C/C_head.md",
     "Untitled.md",
-    "C_enum.md",
-    "C_struct.md"
+    "C/C_union.md",
+    "C/C.md",
+    "operating_system/Untitled.md",
+    "system/operating_system.md",
+    "1.md",
+    "system/Untitled.md"
   ]
 }
