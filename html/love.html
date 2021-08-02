@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Love</title>
+</head>
+<body>
+
+<style type="text/css">
+body,html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+.text{
+	margin: 0;
+	
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.head{
+	text-align: center;
+
+}
+
+.head_img{
+	text-align: center;
+	width: 600px;
+	height: 300px;
+	padding: 10px; 
+}
+
+.Love{
+	font-family: "楷体";
+	font-size: 30px;
+	margin: 0;
+	
+
+}
+.panel{
+	margin: 10%;
+}
+.panel a{
+	text-decoration: none;
+	color: #900ff090;
+}
+
+#time{
+	color: blue;
+}
+
+input{
+	width: 100px;
+	border-color: #fff; 
+}
+
+</style>
+
+<script type="text/javascript">
+	
+	window.onload=function() {
+
+		// 调用函数
+		setInterval(" changeTime()",1000);
+		
+	}
+	function changeTime() {
+
+		// 实现恋爱累计时间
+		var time1 = new Date();
+		var time2 = new Date(2017,9,15,0,0,0);
+		var conS = Math.floor((time1.getTime() - time2.getTime()) / 1000);
+
+		var sec = parseInt(conS % 60);
+		var min = parseInt(conS / 60 % 60 );
+		var hour = parseInt(conS / 3600 % 24);
+		var day = parseInt(conS / 3600 / 24);
+		
+		document.getElementById("time").innerHTML = day + "天"+ hour + "时" + min + "分" + sec + "秒";
+	}
+
+
+</script>
+
+<div class="text">
+	<div class="head">
+		<img class="head_img" src="../iamges/love1.jpg">
+		<img class="head_img" src="../iamges/love2.jpg">
+		<img class="head_img" src="../iamges/love3.jpg">
+	</div>
+	<div class="Love">
+
+		我们相爱了 <div id="time"> </div>
+	</div>
+
+	<div class="panel">
+		<a href="./lone.html">爱语</a>
+	</div>
+
+</div>
+
+
+</body>
+</html>
