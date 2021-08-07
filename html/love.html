@@ -71,15 +71,20 @@ input{
 
 		// 实现恋爱累计时间
 		var time1 = new Date();
-		var time2 = new Date(2017,9,15,0,0,0);
+		//因为date类型中的月份定义是0-11，所以现实中的4对应date内部的3，所以需要减一
+		//法1
+		//var time2 = new Date(2017,8,15,0,0,0);
+		//法2"2019-04-30 11:01:24"
+		var time2 = new Date("2017-09-15 0:0:0");
 		var conS = Math.floor((time1.getTime() - time2.getTime()) / 1000);
 
 		var sec = parseInt(conS % 60);
-		var min = parseInt(conS / 60 % 60 );
-		var hour = parseInt(conS / 3600 % 24);
-		var day = parseInt(conS / 3600 / 24);
+		var min = parseInt((conS / 60) % 60 );
+		var hour = parseInt((conS / 3600) % 24);
+		var day = parseInt(((conS / 3600) / 24) % 365);
+		var year = parseInt(((conS / 3600) / 24) / 365);
 		
-		document.getElementById("time").innerHTML = day + "天"+ hour + "时" + min + "分" + sec + "秒";
+		document.getElementById("time").innerHTML = year + "年" + day + "天"+ hour + "时" + min + "分" + sec + "秒";
 	}
 
 
